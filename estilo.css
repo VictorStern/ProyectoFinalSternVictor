@@ -62,8 +62,10 @@
 
 .ulNav1 {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 80px;
+    justify-content: flex-start;
+    margin-top: 5px;
+    
+   
 }
 
 .bodyCss {
@@ -266,7 +268,7 @@ margin: 0;
 
 .estiloImg {
     box-shadow: 0px 4px 10px;
-    width: 18rem;
+    width: 280px;
     margin: 10px 20px;
     background-color: rgb(163, 178, 196) ;
 }
@@ -305,6 +307,7 @@ margin: 0;
 }
 
 .imgJob {
+    display: flex;
     width: 96%;
     height: 500px;
     margin: 15px 25px 15px 25px;
