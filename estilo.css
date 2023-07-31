@@ -182,7 +182,7 @@ footer p {
 }
 
 .formularioRegistro {
-    width:440px;
+    width:400px;
     height: 600px;
     background: rgb(0, 0, 1);
     padding: 10px;
@@ -212,19 +212,23 @@ footer p {
 
 .colContacto {
     margin-top: 15px;
-    width: 430px;
+    width: 400px;
     height: 600px;
     padding: 0px;
 }
 
 .colContacto1 {    
     margin-top: 15px;
-    width: 430px;
+    width: 400px;
     height:600px;
     padding: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
+.colTres {
+padding: 0;
+margin: 0;
+}
 .cardBody {
     background-color: rgb(4, 24, 4);
     color: antiquewhite;
