@@ -211,18 +211,22 @@ footer p {
 }
 
 .colContacto {
+    display: flex;
     margin-top: 15px;
-    width: 400px;
+    width: 350px;
     height: 600px;
     padding: 0px;
+    box-shadow: 7px 13px rgb(22, 22, 23);
 }
 
 .colContacto1 {    
+    display: flex;
     margin-top: 15px;
-    width: 400px;
+    width: 450px;
     height:600px;
-    padding: 0px;
+    margin: 15px 15px;
     margin-bottom: 20px;
+  
 }
 
 .colTres {
@@ -307,6 +311,7 @@ margin: 0;
 }
 
 .formularioJob {
+   
     width: 95%;
     margin: 10px 15px;
 }
