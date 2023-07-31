@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+iframe {
+    display: inline-block;
+}
+
+
+.venta {
+    width: 23%;
+    height: 150px;
+}
+
+body {
+    background-color: rgb(242, 237, 231);
+}
+
+li,
+a {
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2px;
+    align-items: flex-end;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.log {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+header {
+    display: flex;
+    height: auto;
+    background-color: rgb(1, 16, 22);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    padding-top: 0px;
+
+}
+
+.nombreDeLaEmpresa {
+    padding: 0px;
+    font-size: xx-large;
+    color: antiquewhite;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.logo {
+    display: flex;
+    width: 70px;
+    margin-bottom: 0px;
+}
+
+.banner1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+
+/*
+
+.titForm {
+    font-size: xx-large;
+    font-style: unset;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+/*
+
+.ubicacion {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    padding-bottom: 15px;
+
+}
+
+.estilos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.estilos .estilo {
+    width: 33%;
+    height: 300px;
+    border-style: double;
+}
+
+.dibujos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dibujos .dibujo {
+    width: 33%;
+    height: 300px;
+    margin-bottom: 15px;
+    border-style: double;
+}
+
+
+
+section .barbershop {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+*/
+/*bootstrap*/
+
+/*
+}
+.imgEstilo {
+    padding: 15px;
+    width: 300px;
+    height: 500px;
+}
+*/
+
+/*header*/
+.botUsuario {
+    background-color: rgb(7, 85, 85);
+    color: white;
+    padding-bottom: 2px;
+}
+
+.botUsuario a:hover {
+    color: rgb(104, 20, 20);
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+}
+
+.logo10 {
+    width: 160px;
+    height: 125px;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+.castaHeader {
+    background-color: black;
+    padding: 0;
+
+}
+
+.castaNav {
+    font-family: 'Gill Sans MT';
+    font-size: 25px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: end;
+}
+
+.castaNav:hover {
+    color: rgb(232, 227, 78);
+}
+
+.logoNav {
+    width: 155px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.logoNav:hover {
+    opacity: 0.5;
+}
+
+.ulNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0%;
+
+}
+
+.navIcon {
+    color: #fafafa;
+    background-color: gray;
+}
+
+
+.ulNav1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+
+}
+
+.bodyCss {
+    background-color: rgb(219, 219, 242);
+}
+
+.mainCss {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    height: auto;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px rgb(220, 216, 216);
+    margin-top: 15px;
+}
+
+
+footer p {
+    display: flex;
+    height: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+
+}
+
+.footerCss {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aFooter:hover {
+    opacity: 0.5;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerTit {
+    font-family: 'Fasthand';
+    font-size: 60px;
+    color: rgb(229, 186, 134);   
+    border-style: solid black 2px;  
+    
+}
+.bannerSub {    
+    font-size: 30px;
+    color: rgb(213, 192, 167);  
+    font-weight: 800;      
+}
+
+.hSpot {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.video {
+    height: max-content;
+}
+
+/*cards*/
+.cardImg {
+    margin: 8px 15px;
+    box-shadow: 7px 13px rgb(64, 59, 59);
+    border: 5px solid rgb(20, 11, 11, 0, 5);
+}
+
+.cardImg:hover {
+    opacity: 0.8;
+}
+
+.botCol {
+    background-color: rgb(7, 85, 85);
+    color: white;
+    padding-bottom: 2px;
+}
+
+.precio {
+    font-size: large;
+    font-weight: bold;
+}
+
+.barbersh {
+    margin-top: 5px;
+    font-size: large;
+}
+
+.formUsuario {
+    width: 300px;
+    background-color: rgb(169, 169, 233);
+}
+
+.shop {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin: 1px 0px 10px 0px;
+    align-items: stretch;
+}
+
+/*formulario*/
+.formularioTurno {
+    justify-content: center;
+    width: 400px;
+    box-shadow: 7px 13px #001;
+}
+
+.formularioRegistro {
+    width:440px;
+    height: 600px;
+    background: rgb(0, 0, 1);
+    padding: 10px;
+    margin: 0;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px rgb(22, 22, 23);
+}
+
+.controls {
+    width: 100%;
+    color: #fafafa;
+    background: rgb(19, 15, 15);
+    padding: 15px;
+    border-radius: 4px;
+    margin: 12px 5px;
+    border: 1px solid whitesmoke;
+    font: 18px;
+}
+
+.formularioRegistro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.colContacto {
+    margin-top: 15px;
+    width: 430px;
+    height: 600px;
+    padding: 0px;
+}
+.colContacto1 {
+    
+    margin-top: 15px;
+    width: 430px;
+    height:600px;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+.cardBody {
+    background-color: rgb(4, 24, 4);
+    color: antiquewhite;
+}
+.somos1 {
+    text-align: center;
+    margin-top: 5px;
+    width: 33%;
+    padding: 50px;
+    font-size: 35px;
+}
+
+
+
+
+.imgCol {    
+    width: 100%;
+    height: 383px;
+}
+.video {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*estilos*/
+
+.cardEstilo {
+    width: 250px;
+    height: 300px;
+}
+.estiloImg {
+    box-shadow: 0px 4px 10px;
+    width: 18rem;
+    margin: 10px 20px;
+    background-color: rgb(226, 234, 244);
+}
+
+.imgCarrusel {
+    width: 100%;
+    height: 600px;
+    
+}
+.carruselTit {
+    
+    font-family: 'Fasthand';
+    font-size: 85px;
+    color: rgb(248, 243, 237);   
+    background-color: black;
+    opacity: 0.6;
+    
+}
+.iconPavi {
+    width: 50px;
+    height: 50px;
+}
+.serviciosBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid darkgrey;
+    background-color: rgb(226, 234, 244);
+}
+
+
+
+/**/
