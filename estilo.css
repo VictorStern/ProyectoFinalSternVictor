@@ -24,7 +24,6 @@
 .castaHeader {
     background-color: black;
     padding: 0;
-
 }
 
 .castaNav {
@@ -53,7 +52,6 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 0%;
-
 }
 
 .navIcon {
@@ -66,13 +64,11 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 80px;
-
 }
 
 .bodyCss {
     background-color: rgb(219, 219, 242);
 }
-
 
 /*footer*/
 footer {
@@ -88,7 +84,6 @@ footer {
     margin-top: 15px;
 }
 
-
 footer p {
     display: flex;
     height: auto;
@@ -97,7 +92,6 @@ footer p {
     align-items: center;
     flex-direction: column;
     margin: 0%;
-
 }
 
 .footerCss {
@@ -119,9 +113,9 @@ footer p {
     font-family: 'Fasthand';
     font-size: 60px;
     color: rgb(229, 186, 134);   
-    border-style: solid black 2px;  
-    
+    border-style: solid black 2px;      
 }
+
 .bannerSub {    
     font-size: 30px;
     color: rgb(213, 192, 167);  
@@ -144,6 +138,7 @@ footer p {
     margin: 8px 15px;
     box-shadow: 7px 13px rgb(64, 59, 59);
     border: 5px solid rgb(20, 11, 11, 0, 5);
+    background-color: rgb(163, 178, 196);
 }
 
 .cardImg:hover {
@@ -221,18 +216,20 @@ footer p {
     height: 600px;
     padding: 0px;
 }
-.colContacto1 {
-    
+
+.colContacto1 {    
     margin-top: 15px;
     width: 430px;
     height:600px;
     padding: 0px;
     margin-bottom: 100px;
 }
+
 .cardBody {
     background-color: rgb(4, 24, 4);
     color: antiquewhite;
 }
+
 .somos1 {
     text-align: center;
     margin-top: 5px;
@@ -241,25 +238,24 @@ footer p {
     font-size: 35px;
 }
 
-
-
-
 .imgCol {    
     width: 100%;
     height: 383px;
 }
+
 .video {
     width: 100%;
     height: 600px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-/*estilos*/
 
+/*estilos*/
 .cardEstilo {
     width: 250px;
     height: 300px;
 }
+
 .estiloImg {
     box-shadow: 0px 4px 10px;
     width: 18rem;
@@ -272,36 +268,40 @@ footer p {
     height: 600px;
     
 }
+
 .carruselTit {
     
     font-family: 'Fasthand';
     font-size: 85px;
     color: rgb(248, 243, 237);   
     background-color: black;
-    opacity: 0.6;
-    
+    opacity: 0.6;    
 }
+
 .iconPavi {
     width: 50px;
     height: 50px;
 }
+
 .serviciosBox {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 2px solid darkgrey;
     background-color: rgb(163, 178, 196) ;
 }
+
 .colJob {
     background-color: rgb(163, 178, 196) ;
     width: auto;
     margin: 10px 25px;
-
 }
+
 .imgJob {
     width: 96%;
     height: 500px;
     margin: 15px 25px 15px 25px;
 }
+
 .formularioJob {
     width: 95%;
     margin: 10px 15px;
@@ -319,7 +319,6 @@ footer p {
     color: #fafafa;
     border-radius: 5%;
 }
-
 
 .botUsuario1:hover {
     background-color: rgb(12, 98, 98);
