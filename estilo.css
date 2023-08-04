@@ -165,7 +165,10 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px 15px;
+    margin: 0px 15px;
+}
+.barberos1 {
+    margin-top: 15px;
 }
 
 .imgBarbero {
@@ -175,6 +178,7 @@ footer p {
 
 .video {
     height: max-content;
+   
 }
 
 /*cards*/
@@ -192,6 +196,17 @@ footer p {
 .cardImg {
     background: linear-gradient(to bottom,   rgb(208, 232, 240),rgb(208, 232, 240), lightblue,rgb(65, 191, 226));
 }
+
+@media ( max-width:459px){
+    .cardImg {
+        width: 350px;
+        height: 85%;
+        margin-top: 20px;
+       
+
+    }
+}
+
 
 .cardImg:hover {
     opacity: 0.8;
