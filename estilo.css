@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
 /*header*/
+
 .botUsuario {
     background-color: rgb(7, 85, 85);
     color: white;
@@ -28,7 +29,7 @@
 
 .castaNav {
     font-family: 'Gill Sans MT';
-    font-size: 25px;
+    font-size: 20px;
     color: whitesmoke;
     display: flex;
     justify-content: end;
@@ -109,6 +110,9 @@ footer p {
 .aFooter:hover {
     opacity: 0.5;
 }
+.banner {
+    width: 100%;
+}
 
 .banner1 {
     display: flex;
@@ -117,9 +121,24 @@ footer p {
 }
 .bannerTit {
     font-family: 'Fasthand';
-    font-size: 60px;
-    color: rgb(229, 186, 134);   
+    font-size: 70px;
+    color: rgb(255, 4, 4);   
     border-style: solid black 2px;      
+}
+
+@media ( max-width:600px){
+    .bannerTit {
+        display: none;
+       
+
+    }
+}
+@media (min-width:601px) {
+    .bannerTit {
+        font-size: 50px;
+        
+
+    }
 }
 
 .bannerSub {    
@@ -164,12 +183,14 @@ footer p {
     height: 400px;
     margin: 12px 15px;
     box-shadow: 7px 13px rgb(64, 59, 59);
-    border: 5px solid rgb(20, 11, 11, 0, 5);
+    border-radius: 15px;
     background-color: rgb(163, 178, 196);
     justify-content: center;
     align-items: center;
     text-align: center;
-
+}
+.cardImg {
+    background: linear-gradient(to bottom,   rgb(208, 232, 240),rgb(208, 232, 240), lightblue,rgb(65, 191, 226));
 }
 
 .cardImg:hover {
@@ -314,10 +335,10 @@ margin: 0;
 }
 
 .imgCarrusel {
-    width: 100%;
-    height: 600px;
-    
+    width: 100%;    
 }
+
+
 
 .carruselTit {
     
@@ -326,18 +347,51 @@ margin: 0;
     color: rgb(248, 243, 237);   
     background-color: black;
     opacity: 0.6;    
+    
+}
+@media ( max-width:800px) {
+    .carruselTit {
+        display: none;
+
+    }
 }
 
 .iconPavi {
     width: 50px;
     height: 50px;
 }
+.titServicios {
+    font-size: 25px;
+    font: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
 
 .serviciosBox {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 15px 0 15px 0;
     border: 2px solid darkgrey;
     background-color: rgb(163, 178, 196) ;
+    border-radius: 10px;
+}
+.serviciosBox1 {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.serviciosBox {
+    background: linear-gradient(to right, white,  lightblue, lightblue,rgb(83, 215, 251));
+}
+.estiloImg {
+    background: linear-gradient(to bottom,   rgb(208, 232, 240), lightblue,rgb(65, 191, 226));
+}
+@media (min-width: 500px) {
+    .serviciosBox {
+        font-size: 20px;
+    }
 }
 
 
