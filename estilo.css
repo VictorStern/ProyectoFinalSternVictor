@@ -3,27 +3,22 @@
 
 /*header*/
 
-.botUsuario {
+header .botUsuario {
     background-color: rgb(7, 85, 85);
     color: white;
     padding-bottom: 2px;
 }
 
-.logo {
+header .logo {
     width: 200px;
     height: 120px;
 }
 
-.logo10 {
-    width: 160px;
-    height: 125px;
-}
-
-.logo:hover {
+header .logo:hover {
     opacity: 0.5;
 }
 
-.castaHeader {
+header {
     background-color: black;
     padding: 0;
 }
@@ -40,28 +35,18 @@
     color: rgb(232, 227, 78);
 }
 
-.logoNav {
-    width: 155px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-.logoNav:hover {
-    opacity: 0.5;
-}
-
-.ulNav {
+header nav {
     display: flex;
     justify-content: flex-end;
     margin-right: 0%;
 }
 
-.navIcon {
+header .navIcon {
     color: #fafafa;
     background-color: gray;
 }
 
-.ulNav1 {
+header nav .ulNav1 {
     display: flex;
     justify-content: flex-end;
     margin-top: 5px;
@@ -95,32 +80,26 @@ footer p {
     margin: 0%;
 }
 
-.footerCss {
+footer .footerCss {
     width: 75%;
     display: flex;
     justify-content: space-around;
 }
 
-.foot {
+footer .footerCss .foot {
     width: 50px;
     height: 50px;
 }
 
-.aFooter:hover {
+footer .footerCss .aFooter:hover {
     opacity: 0.5;
 }
 
-.banner {
+.secSpot .divBanner .banner {
     width: 100%;
 }
 
-.banner1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bannerTit {
+.secSpot .divBanner .bannerTit {
     font-family: 'Fasthand';
     font-size: 70px;
     color: rgb(255, 4, 4);
@@ -139,13 +118,7 @@ footer p {
     }
 }
 
-.bannerSub {
-    font-size: 30px;
-    color: rgb(213, 192, 167);
-    font-weight: 800;
-}
-
-.hSpot {
+.secSpot .hSpot {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -157,7 +130,7 @@ footer p {
     margin: 25px 15px 15px 15px;
 }
 
-.salonTitulo {
+.salon .salonTitulo {
     text-decoration: none;
     color: rgb(73, 73, 206);
     font-size: 30px;
@@ -165,7 +138,7 @@ footer p {
     font-weight: 800;
 }
 
-.salonP {
+.salon .salonP {
     text-decoration: none;
     font-size: 25px;
     font: bold;
@@ -183,11 +156,11 @@ footer p {
     margin: 0px 15px;
 }
 
-.barberos1 {
+.barberos .barberos1 {
     margin-top: 15px;
 }
 
-.imgBarbero {
+.barberos .barberos1 .imgBarbero {
     width: 140px;
     height: 140px;
 }
@@ -196,7 +169,7 @@ footer p {
     height: max-content;
 }
 
-.imgSalon {
+.salon .imgSalon {
     width: 100%;
 }
 
