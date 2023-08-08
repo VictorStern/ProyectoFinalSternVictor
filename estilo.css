@@ -114,6 +114,7 @@ footer p {
     margin-top: 20px;
     margin-bottom: 5px;
     text-decoration: underline;
+    color: rgb(36, 36, 174);
 }
 
 .salon {
@@ -124,7 +125,7 @@ footer p {
 
 .salonTitulo {
     text-decoration: underline;
-    color: rgb(73, 73, 206);
+    color: rgb(36, 36, 174);
     font-size: 30px;
     font: bold;
     font-weight: 800;
@@ -133,7 +134,7 @@ footer p {
 
 .salonP {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font: bold;
     color: black;
     font-weight: 500;
