@@ -141,6 +141,7 @@ footer p {
     font-size: 30px;
     font: bold;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .salonP {
@@ -296,11 +297,14 @@ footer p {
     padding: 0px;
     box-shadow: 7px 13px rgb(22, 22, 23);
 }
+iframe {
+    width: 100%;
+}
 
 .colContacto1 {
     display: flex;
     margin-top: 15px;
-    width: 450px;
+    width: 350px;
     height: 600px;
     margin: 15px 15px;
     margin-bottom: 20px;
@@ -365,12 +369,6 @@ footer p {
     color: rgb(248, 243, 237);
     background-color: black;
     opacity: 0.6;
-}
-
-@media (max-width:800px) {
-    .carruselTit {
-        display: none;
-    }
 }
 
 .iconPavi {
