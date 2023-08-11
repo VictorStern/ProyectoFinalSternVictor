@@ -4,7 +4,8 @@
 /*header*/
 
 .bodyCss {
-    background: url(img/fondomadera.jpg)
+    background: url(img/fondomadera.jpg);
+    padding-top: 150px;
 }
 
 header {
@@ -118,9 +119,7 @@ footer p {
 
 /*index*/
 .imgHome {
-    margin-top: 125px;
     width: 100%;
-    height: auto;
 }
 
 .salon {
@@ -189,10 +188,7 @@ footer p {
 /*inicio barbershop*/
 /*img*/
 .shop {
-    margin-top: 125px;
     width: 100%;
-    height: calc(100vh - 150px);
-    object-fit: cover;
 }
 
 /*seccion barbershop*/
@@ -251,7 +247,6 @@ footer p {
 /*inicio de servicios**/
 /*section servicios box1*/
 .serviciosBox1 {
-    margin-top: 140px;
     padding: 15px;
     justify-content: center;
     align-items: center;
@@ -320,9 +315,7 @@ h3 {
 
 /*Trabaja con nosotros*/
 .imgJob {
-    margin-top: 105px;
     width: 100%;
-    height: auto;
 }
 
 .formularioJob {
@@ -352,7 +345,6 @@ h3 {
 
 /*iniciocontacto*/
 .contacto {
-    margin-top: 140px;
     margin-bottom: 2rem;
 }
 
