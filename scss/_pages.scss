@@ -1,0 +1,196 @@
+/*index*/
+.imgHome {
+    width: 100%;
+    height: auto;
+}
+
+.salon {
+    margin: 25px 15px;
+    margin-top: 5rem;
+
+    .salonTitulo {
+        text-decoration: underline;
+        color: black;
+        font-size: 30px;
+        font: bold;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .salonP {
+        text-decoration: none;
+        font-size: 25px;
+        font: bold;
+        color: black;
+        font-weight: 500;
+        font-family: 'nunito';
+    }
+
+    .imgSalon {
+        border-radius: 30px;
+        width: 100%;
+    }
+}
+
+.barberos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 33px 15px;
+
+    .barberos1 {
+        margin-top: 3rem;
+        padding: 2px 2px;
+
+        .imgBarbero {
+            width: 140px;
+            height: 140px;
+        }
+    }
+}
+
+.video {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/*barbershop*/
+.shop {
+    width: 100%;
+}
+
+.foot1 {
+    width: 30px;
+    height: 30px;
+}
+
+.barbershop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    .cardImg {
+        width: 230px;
+        object-fit: contain;
+        margin: 12px 15px;
+        box-shadow: 7px 13px rgb(64, 59, 59);
+        border-radius: 15px;
+        background-color: rgb(163, 178, 196);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+
+        .precio {
+            font-size: large;
+            font-weight: bold;
+        }
+    }
+}
+
+.botCol {
+    background-color: rgb(7, 85, 85);
+    color: white;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 10px;
+    box-shadow: black solid;
+
+    &:hover {
+        color: rgb(166, 161, 4);
+        background: rgb(0, 0, 0);
+    }
+}
+
+/*servicios*/
+
+.serviciosBox1 {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'nunito';
+    font-size: 20px;
+    font-weight: bold;
+
+    .serviciosBox {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px 0 15px 0;
+        border: 2px solid darkgrey;
+        border-radius: 10px;
+        background: linear-gradient(to right, white, lightblue, lightblue, rgb(83, 215, 251));
+
+        .iconPavi {
+            width: 50px;
+            height: 50px;
+        }
+
+        .titServicios {
+            font-size: 25px;
+            font: bold;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+.estilosTotal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .estiloImg {
+        box-shadow: 0px 4px 10px;
+        width: 280px;
+        margin: 10px 20px;
+        background: linear-gradient(to bottom, rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+
+        .cardEstilo {
+            object-fit: cover;
+        }
+
+        .card-text {
+            font-family: 'nunito';
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+/*somos*/
+
+.imgJob {
+    width: 100%;
+}
+
+.formularioJob {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 2rem;
+
+    .controls {
+        width: 100%;
+        color: #fafafa;
+        background: rgb(19, 15, 15);
+        padding: 15px;
+        border-radius: 4px;
+        margin: 12px 5px;
+        border: 1px solid whitesmoke;
+        font: 18px;
+    }
+}
+
+/*contacto*/

@@ -1,395 +1,338 @@
-/*# sourceMappingURL=estilo.css.map */
-
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito+Sans:opsz@6..12&display=swap');
-/*header*/
-
-.bodyCss {
-    background: url(img/fondomadera.jpg);
-    padding-top: 150px;
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito+Sans:opsz@6..12&display=swap");
+.castaHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  padding: 12px 18px;
+  transition: background-color 0.4s ease-out;
+  z-index: 3;
+  color: black;
 }
 
 header {
-    background-color: black;
-    width: 100%;
-    height: 150px;
+  background-color: black;
+  width: 100%;
+  height: 150px;
+}
+header .logo {
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
+}
+header .logo:hover {
+  opacity: 0.5;
+}
+header .navIcon {
+  color: #fafafa;
+  background-color: gray;
+  justify-content: end;
+  align-items: end;
+}
+header nav {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: flex-end;
+}
+header nav .ulNav1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+header nav .ulNav1 .castaNav {
+  font-family: "Gill Sans MT";
+  font-size: 20px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: end;
+}
+header nav .ulNav1 .castaNav:hover {
+  color: rgb(166, 161, 4);
 }
 
-.castaHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    box-sizing: border-box;
-    padding: 12px 18px;
-    transition: background-color 0.4s ease-out;
-    z-index: 1;
-    color: black;
-}
-
-.logo {
-    width: 125px;
-    height: 125px;
-    object-fit: contain;
-}
-
-.logo:hover {
-    opacity: 0.5;
-}
-
-.navIcon {
-    color: #fafafa;
-    background-color: gray;
-    justify-content: end;
-    align-items: end;
-}
-
-nav {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: flex-end;
-}
-
-.ulNav1 {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-}
-
-.castaNav {
-    font-family: 'Gill Sans MT';
-    font-size: 20px;
-    color: whitesmoke;
-    display: flex;
-    justify-content: end;
-}
-
-.castaNav:hover {
-    color: rgb(232, 227, 78);
-}
-
-/*fin header*/
-
-/*footer*/
 footer {
-    display: flex;
-    height: auto;
-    background-color: black;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 2px rgb(220, 216, 216);
+  display: flex;
+  height: auto;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px rgb(220, 216, 216);
 }
-
-.footerCss {
-    width: 75%;
-    display: flex;
-    justify-content: space-around;
+footer .footerCss {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
 }
-
-.aFooter:hover {
-    opacity: 0.5;
+footer .footerCss .aFooter:hover {
+  opacity: 0.5;
 }
-
-.foot {
-    width: 50px;
-    height: 50px;
+footer .footerCss .aFooter .foot {
+  width: 50px;
+  height: 50px;
 }
-
-@media (max-width:600px) {
-    .foot {
-        width: 30px;
-        height: 30px;
-    }
-}
-
 footer p {
-    display: flex;
-    height: auto;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0%;
+  display: flex;
+  height: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0%;
 }
 
-/*fin footer*/
-
+@media (max-width: 600px) {
+  .foot {
+    width: 30px;
+    height: 30px;
+  }
+}
 /*index*/
 .imgHome {
-    width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .salon {
-    margin: 25px 15px;
-    margin-top: 5rem;
+  margin: 25px 15px;
+  margin-top: 5rem;
 }
-
-.salonTitulo {
-    text-decoration: underline;
-    color: black;
-    font-size: 30px;
-    font: bold;
-    font-weight: 800;
-    text-transform: uppercase;
+.salon .salonTitulo {
+  text-decoration: underline;
+  color: black;
+  font-size: 30px;
+  font: bold;
+  font-weight: 800;
+  text-transform: uppercase;
 }
-
-.salonP {
-    text-decoration: none;
-    font-size: 25px;
-    font: bold;
-    color: black;
-    font-weight: 500;
-    font-family: 'nunito';
+.salon .salonP {
+  text-decoration: none;
+  font-size: 25px;
+  font: bold;
+  color: black;
+  font-weight: 500;
+  font-family: "nunito";
 }
-
-@media (max-width:990px) {
-    .salonP {
-        font-size: 20px;
-    }
-}
-
-.imgSalon {
-    border-radius: 30px;
-    width: 100%;
+.salon .imgSalon {
+  border-radius: 30px;
+  width: 100%;
 }
 
 .barberos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 33px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 33px 15px;
+}
+.barberos .barberos1 {
+  margin-top: 3rem;
+  padding: 2px 2px;
+}
+.barberos .barberos1 .imgBarbero {
+  width: 140px;
+  height: 140px;
 }
 
-.barberos1 {
-    margin-top: 3rem;
-    padding: 2px 2px;
-}
-
-.imgBarbero {
-    width: 140px;
-    height: 140px;
-}
-
-/*secSpot*/
 .video {
-    width: 100%;
-    height: 600px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-/*fin index*/
-
-/*inicio barbershop*/
-/*img*/
+/*barbershop*/
 .shop {
-    width: 100%;
+  width: 100%;
 }
 
-/*seccion barbershop*/
+.foot1 {
+  width: 30px;
+  height: 30px;
+}
+
 .barbershop {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
-
-.cardImg {
-    width: 230px;
-    object-fit: contain;
-    margin: 12px 15px;
-    box-shadow: 7px 13px rgb(64, 59, 59);
-    border-radius: 15px;
-    background-color: rgb(163, 178, 196);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+.barbershop .cardImg {
+  width: 230px;
+  object-fit: contain;
+  margin: 12px 15px;
+  box-shadow: 7px 13px rgb(64, 59, 59);
+  border-radius: 15px;
+  background-color: rgb(163, 178, 196);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
 }
-
-@media (max-width:459px) {
-    .cardImg {
-        width: 300px;
-        height: 75%;
-        margin-top: 20px;
-    }
-}
-
-.precio {
-    font-size: large;
-    font-weight: bold;
+.barbershop .cardImg .precio {
+  font-size: large;
+  font-weight: bold;
 }
 
 .botCol {
-    background-color: rgb(7, 85, 85);
-    color: white;
-    padding-bottom: 2px;
+  background-color: rgb(7, 85, 85);
+  color: white;
+  padding-bottom: 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 10px 10px;
+  box-shadow: black solid;
+}
+.botCol:hover {
+  color: rgb(166, 161, 4);
+  background: rgb(0, 0, 0);
 }
 
-.barbersh {
-    margin-top: 5px;
-    font-size: large;
-}
-
-.formUsuario {
-    width: 300px;
-    background-color: rgb(169, 169, 233);
-}
-
-/*fin barbershop*/
-
-/*inicio de servicios**/
-/*section servicios box1*/
+/*servicios*/
 .serviciosBox1 {
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'nunito';
-    font-size: 20px;
-    font-weight: bold;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "nunito";
+  font-size: 20px;
+  font-weight: bold;
+}
+.serviciosBox1 .serviciosBox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 0 15px 0;
+  border: 2px solid darkgrey;
+  border-radius: 10px;
+  background: linear-gradient(to right, white, lightblue, lightblue, rgb(83, 215, 251));
+}
+.serviciosBox1 .serviciosBox .iconPavi {
+  width: 50px;
+  height: 50px;
+}
+.serviciosBox1 .serviciosBox .titServicios {
+  font-size: 25px;
+  font: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.serviciosBox1 .serviciosBox h3 {
+  text-align: center;
 }
 
-.serviciosBox {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px 0 15px 0;
-    border: 2px solid darkgrey;
-    border-radius: 10px;
-    background: linear-gradient(to right, white, lightblue, lightblue, rgb(83, 215, 251));
-}
-
-@media (min-width: 500px) {
-    .serviciosBox {
-        font-size: 20px;
-    }
-}
-
-.iconPavi {
-    width: 50px;
-    height: 50px;
-}
-
-.titServicios {
-    font-size: 25px;
-    font: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-/*seccion estilosTotal*/
 .estilosTotal {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.estilosTotal .estiloImg {
+  box-shadow: 0px 4px 10px;
+  width: 280px;
+  margin: 10px 20px;
+  background: linear-gradient(to bottom, rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+}
+.estilosTotal .estiloImg .cardEstilo {
+  object-fit: cover;
+}
+.estilosTotal .estiloImg .card-text {
+  font-family: "nunito";
+  text-align: center;
+  font-size: 20px;
 }
 
-.estiloImg {
-    box-shadow: 0px 4px 10px;
-    width: 280px;
-    margin: 10px 20px;
-    background: linear-gradient(to bottom, rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
-}
-
-.cardEstilo {
-    object-fit: cover;
-}
-
-h3 {
-    text-align: center;
-}
-
-.card-text {
-    font-family: 'nunito';
-    text-align: center;
-    font-size: 20px;
-}
-
-/*fin de servicios*/
-
-/*Trabaja con nosotros*/
+/*somos*/
 .imgJob {
-    width: 100%;
+  width: 100%;
 }
 
 .formularioJob {
-    max-width: 500px;
-    margin: auto;
-    margin-bottom: 2rem;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.formularioJob .controls {
+  width: 100%;
+  color: #fafafa;
+  background: rgb(19, 15, 15);
+  padding: 15px;
+  border-radius: 4px;
+  margin: 12px 5px;
+  border: 1px solid whitesmoke;
+  font: 18px;
 }
 
-@media (max-width: 525px) {
-    .formularioJob {
-        max-width: 310px;
-    }
+/*contacto*/
+.bodyCss {
+  background: url(img/fondomadera.jpg);
+  padding-top: 150px;
 }
 
-.controls {
-    width: 100%;
-    color: #fafafa;
-    background: rgb(19, 15, 15);
-    padding: 15px;
-    border-radius: 4px;
-    margin: 12px 5px;
-    border: 1px solid whitesmoke;
-    font: 18px;
-}
-
-/*fin trabaja con nosotros*/
-
-/*iniciocontacto*/
 .contacto {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
-
-.colContacto {
-    display: flex;
-    margin-top: 15px;
-    width: 340px;
-    height: 600px;
-    padding: 0px;
+.contacto .formularioRegistro {
+  width: 400px;
+  height: 600px;
+  background: rgb(0, 0, 1);
+  padding: 10px;
+  margin: 0;
+  border-radius: 4px;
+  font-family: "nunito";
+  color: white;
+  box-shadow: 7px 13px rgb(22, 22, 23);
 }
-
-.colContacto1 {
-    display: flex;
-    margin-top: 15px;
-    width: 360px;
-    height: 600px;
-    margin: 15px 15px;
-    margin-bottom: 20px;
+.contacto .formularioRegistro .controls {
+  width: 100%;
+  color: #fafafa;
+  background: rgb(19, 15, 15);
+  padding: 15px;
+  border-radius: 4px;
+  margin: 12px 5px;
+  border: 1px solid whitesmoke;
+  font: 18px;
 }
-
-.imgCol {
-    width: 100%;
-    height: 383px;
+.contacto .colContacto {
+  display: flex;
+  margin-top: 15px;
+  width: 340px;
+  height: 600px;
+  padding: 0px;
 }
-
-.cardBody {
-    background-color: rgb(4, 24, 4);
-    color: antiquewhite;
-    font-family: 'nunito';
+.contacto .colContacto1 {
+  display: flex;
+  margin-top: 15px;
+  width: 360px;
+  height: 600px;
+  margin: 15px 15px;
+  margin-bottom: 20px;
+}
+.contacto .colContacto1 .imgCol {
+  width: 100%;
+  height: 383px;
+}
+.contacto .colContacto1 .cardBody {
+  background-color: rgb(4, 24, 4);
+  color: antiquewhite;
+  font-family: "nunito";
 }
 
 .formularioTurno {
-    justify-content: center;
-    width: 400px;
-    box-shadow: 7px 13px #001;
+  justify-content: center;
+  width: 400px;
+  box-shadow: 7px 13px #001;
 }
 
-.formularioRegistro {
-    width: 400px;
-    height: 600px;
-    background: rgb(0, 0, 1);
-    padding: 10px;
-    margin: 0;
-    border-radius: 4px;
-    font-family: 'nunito';
-    color: white;
-    box-shadow: 7px 13px rgb(22, 22, 23);
+.formUsuario {
+  width: 300px;
+  background-color: rgb(169, 169, 233);
 }
+
+/*media queries*/
+
+/*# sourceMappingURL=estilo.css.map */
