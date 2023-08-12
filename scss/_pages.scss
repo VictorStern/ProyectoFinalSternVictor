@@ -7,22 +7,17 @@
 .salon {
     margin: 25px 15px;
     margin-top: 5rem;
-
+   
     .salonTitulo {
-        text-decoration: underline;
-        color: black;
-        font-size: 30px;
-        font: bold;
-        font-weight: 800;
-        text-transform: uppercase;
+        @include titulos
     }
 
     .salonP {
-        text-decoration: none;
+        text-align:left;
         font-size: 25px;
-        font: bold;
+        font-weight: bold;
         color: black;
-        font-weight: 500;
+        font-weight: 300;
         font-family: 'nunito';
     }
 
@@ -44,9 +39,17 @@
         margin-top: 3rem;
         padding: 2px 2px;
 
+        .botCol {
+            @include botones
+        }
+        .infoBarber {
+            font-weight: bold;
+            
+        }
+
         .imgBarbero {
-            width: 140px;
-            height: 140px;
+            width: 200px;
+            height: 200px;
         }
     }
 }
@@ -64,6 +67,10 @@
     width: 100%;
 }
 
+.salonTitulo {
+    @include titulos
+}
+
 .foot1 {
     width: 30px;
     height: 30px;
@@ -76,8 +83,10 @@
     margin-top: 2rem;
     margin-bottom: 4rem;
 
+
+
     .cardImg {
-        width: 230px;
+        width: 260px;
         object-fit: contain;
         margin: 12px 15px;
         box-shadow: 7px 13px rgb(64, 59, 59);
@@ -88,6 +97,20 @@
         text-align: center;
         background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
 
+        .card-img-top {
+            border-radius: 17px;
+            padding: 5px 5px;
+        }
+
+        @include celu {
+            width: 350px;
+
+        }
+
+        .botCol {
+            @include botones
+        }
+
         .precio {
             font-size: large;
             font-weight: bold;
@@ -95,22 +118,10 @@
     }
 }
 
-.botCol {
-    background-color: rgb(7, 85, 85);
-    color: white;
-    padding-bottom: 2px;
-    border-radius: 25px;
-    text-decoration: none;
-    padding: 10px 10px;
-    box-shadow: black solid;
 
-    &:hover {
-        color: rgb(166, 161, 4);
-        background: rgb(0, 0, 0);
-    }
-}
 
 /*servicios*/
+
 
 .serviciosBox1 {
     padding: 15px;
@@ -121,6 +132,11 @@
     font-size: 20px;
     font-weight: bold;
 
+    .botUsuario {
+        @include botones
+    }
+
+
     .serviciosBox {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -128,6 +144,12 @@
         border: 2px solid darkgrey;
         border-radius: 10px;
         background: linear-gradient(to right, white, lightblue, lightblue, rgb(83, 215, 251));
+
+
+        @include tablet {
+            border-radius: 100px;
+        }
+
 
         .iconPavi {
             width: 50px;
@@ -181,6 +203,10 @@
     margin: auto;
     margin-bottom: 2rem;
 
+    .botJob {
+        @include botones
+    }
+
     .controls {
         width: 100%;
         color: #fafafa;
@@ -190,6 +216,8 @@
         margin: 12px 5px;
         border: 1px solid whitesmoke;
         font: 18px;
+
+
     }
 }
 

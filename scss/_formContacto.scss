@@ -11,17 +11,22 @@
         font-family: 'nunito';
         color: white;
         box-shadow: 7px 13px rgb(22, 22, 23);
-        
-    .controls {
-        width: 100%;
-        color: #fafafa;
-        background: rgb(19, 15, 15);
-        padding: 15px;
-        border-radius: 4px;
-        margin: 12px 5px;
-        border: 1px solid whitesmoke;
-        font: 18px;
-    }
+
+        .botCol {
+            @include botones
+        }
+
+        .controls {
+            width: 100%;
+            color: #fafafa;
+            background: rgb(19, 15, 15);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 12px 5px;
+            border: 1px solid whitesmoke;
+            font: 18px;
+
+        }
     }
 
     .colContacto {
