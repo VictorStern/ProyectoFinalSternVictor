@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito+Sans:opsz@6..12&display=swap");
-
 .castaHeader {
   position: fixed;
   top: 0;
@@ -18,36 +17,30 @@ header {
   width: 100%;
   height: 150px;
 }
-
 header .logo {
   width: 125px;
   height: 125px;
   object-fit: contain;
 }
-
 header .logo:hover {
   opacity: 0.5;
 }
-
 header .navIcon {
   color: #fafafa;
   background-color: gray;
   justify-content: end;
   align-items: end;
 }
-
 header nav {
   display: flex;
   background-color: rgba(0, 0, 0, 0.8);
   justify-content: flex-end;
 }
-
 header nav .ulNav1 {
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
 }
-
 header nav .ulNav1 .castaNav {
   font-family: "Gill Sans MT";
   font-size: 20px;
@@ -55,7 +48,6 @@ header nav .ulNav1 .castaNav {
   display: flex;
   justify-content: end;
 }
-
 header nav .ulNav1 .castaNav:hover {
   color: rgb(166, 161, 4);
 }
@@ -71,22 +63,18 @@ footer {
   padding-bottom: 5px;
   border: 2px rgb(220, 216, 216);
 }
-
 footer .footerCss {
   width: 75%;
   display: flex;
   justify-content: space-around;
 }
-
 footer .footerCss .aFooter:hover {
   opacity: 0.5;
 }
-
 footer .footerCss .aFooter .foot {
   width: 50px;
   height: 50px;
 }
-
 footer p {
   display: flex;
   height: auto;
@@ -103,7 +91,6 @@ footer p {
     height: 30px;
   }
 }
-
 /*index*/
 .imgHome {
   width: 100%;
@@ -114,7 +101,6 @@ footer p {
   margin: 25px 15px;
   margin-top: 5rem;
 }
-
 .salon .salonTitulo {
   text-decoration: underline;
   color: black;
@@ -123,7 +109,6 @@ footer p {
   font-weight: 800;
   text-transform: uppercase;
 }
-
 .salon .salonP {
   text-align: left;
   font-size: 25px;
@@ -132,7 +117,6 @@ footer p {
   font-weight: 300;
   font-family: "nunito";
 }
-
 .salon .imgSalon {
   border-radius: 30px;
   width: 100%;
@@ -146,12 +130,10 @@ footer p {
   text-align: center;
   margin: 33px 15px;
 }
-
 .barberos .barberos1 {
   margin-top: 3rem;
   padding: 2px 2px;
 }
-
 .barberos .barberos1 .botCol {
   background-color: rgb(0, 33, 33);
   color: white;
@@ -162,18 +144,15 @@ footer p {
   box-shadow: black solid;
   font-weight: bold;
 }
-
 .barberos .barberos1 .botCol:hover {
   color: bisque;
   background: rgb(4, 24, 4);
   font-weight: bold;
   border: black solid 1px;
 }
-
 .barberos .barberos1 .infoBarber {
   font-weight: bold;
 }
-
 .barberos .barberos1 .imgBarbero {
   width: 200px;
   height: 200px;
@@ -212,7 +191,6 @@ footer p {
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
-
 .barbershop .cardImg {
   width: 260px;
   object-fit: contain;
@@ -225,18 +203,15 @@ footer p {
   text-align: center;
   background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
 }
-
 .barbershop .cardImg .card-img-top {
   border-radius: 17px;
   padding: 5px 5px;
 }
-
 @media screen and (max-width: 576px) {
   .barbershop .cardImg {
     width: 350px;
   }
 }
-
 .barbershop .cardImg .botCol {
   background-color: rgb(0, 33, 33);
   color: white;
@@ -247,14 +222,12 @@ footer p {
   box-shadow: black solid;
   font-weight: bold;
 }
-
 .barbershop .cardImg .botCol:hover {
   color: bisque;
   background: rgb(4, 24, 4);
   font-weight: bold;
   border: black solid 1px;
 }
-
 .barbershop .cardImg .precio {
   font-size: large;
   font-weight: bold;
@@ -269,9 +242,7 @@ footer p {
   font-family: "nunito";
   font-size: 20px;
   font-weight: bold;
-
 }
-
 .serviciosBox1 .botUsuario {
   background-color: rgb(0, 33, 33);
   color: white;
@@ -282,14 +253,12 @@ footer p {
   box-shadow: black solid;
   font-weight: bold;
 }
-
 .serviciosBox1 .botUsuario:hover {
   color: bisque;
   background: rgb(4, 24, 4);
   font-weight: bold;
   border: black solid 1px;
 }
-
 .serviciosBox1 .serviciosBox {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -298,25 +267,21 @@ footer p {
   border-radius: 10px;
   background: linear-gradient(to right, white, lightblue, lightblue, rgb(83, 215, 251));
 }
-
 @media screen and (max-width: 768px) {
   .serviciosBox1 .serviciosBox {
     border-radius: 100px;
   }
 }
-
 .serviciosBox1 .serviciosBox .iconPavi {
   width: 50px;
   height: 50px;
 }
-
 .serviciosBox1 .serviciosBox .titServicios {
   font-size: 25px;
   font: bold;
   text-transform: uppercase;
   text-decoration: underline;
 }
-
 .serviciosBox1 .serviciosBox h3 {
   text-align: center;
 }
@@ -326,18 +291,15 @@ footer p {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .estilosTotal .estiloImg {
-  box-shadow: 20px 20px 20px;
+  box-shadow: 0px 4px 10px;
   width: 290px;
   margin: 30px 20px;
   background: linear-gradient(to bottom, rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
 }
-
 .estilosTotal .estiloImg .cardEstilo {
   object-fit: cover;
 }
-
 .estilosTotal .estiloImg .card-text {
   font-family: "nunito";
   text-align: center;
@@ -354,7 +316,6 @@ footer p {
   margin: auto;
   margin-bottom: 2rem;
 }
-
 .formularioJob .botJob {
   background-color: rgb(0, 33, 33);
   color: white;
@@ -365,14 +326,12 @@ footer p {
   box-shadow: black solid;
   font-weight: bold;
 }
-
 .formularioJob .botJob:hover {
   color: bisque;
   background: rgb(4, 24, 4);
   font-weight: bold;
   border: black solid 1px;
 }
-
 .formularioJob .controls {
   width: 100%;
   color: #fafafa;
@@ -393,7 +352,6 @@ footer p {
 .contacto {
   margin-bottom: 2rem;
 }
-
 .contacto .formularioRegistro {
   width: 400px;
   height: 600px;
@@ -405,7 +363,6 @@ footer p {
   color: white;
   box-shadow: 7px 13px rgb(22, 22, 23);
 }
-
 .contacto .formularioRegistro .botCol {
   background-color: rgb(0, 33, 33);
   color: white;
@@ -416,14 +373,12 @@ footer p {
   box-shadow: black solid;
   font-weight: bold;
 }
-
 .contacto .formularioRegistro .botCol:hover {
   color: bisque;
   background: rgb(4, 24, 4);
   font-weight: bold;
   border: black solid 1px;
 }
-
 .contacto .formularioRegistro .controls {
   width: 100%;
   color: #fafafa;
@@ -434,7 +389,6 @@ footer p {
   border: 1px solid whitesmoke;
   font: 18px;
 }
-
 .contacto .colContacto {
   display: flex;
   margin-top: 15px;
@@ -442,7 +396,6 @@ footer p {
   height: 600px;
   padding: 0px;
 }
-
 .contacto .colContacto1 {
   display: flex;
   margin-top: 15px;
@@ -451,12 +404,10 @@ footer p {
   margin: 15px 15px;
   margin-bottom: 20px;
 }
-
 .contacto .colContacto1 .imgCol {
   width: 100%;
   height: 383px;
 }
-
 .contacto .colContacto1 .cardBody {
   background-color: rgb(4, 24, 4);
   color: antiquewhite;
@@ -476,4 +427,4 @@ footer p {
 
 /*media queries*/
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=estilo.scss.map */
