@@ -22,6 +22,11 @@ footer {
 			.foot {
 				width: 50px;
 				height: 50px;
+				@include celu {
+					width: 30px;
+					height: 30px;
+				}
+
 			}
 		}
 	}
@@ -34,6 +39,10 @@ footer {
 		align-items: center;
 		flex-direction: column;
 		margin: 0%;
+		@include celu {
+		font-size: 10px;
+		}
+
 	}
 }
 

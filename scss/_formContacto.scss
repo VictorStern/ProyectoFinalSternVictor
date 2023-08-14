@@ -25,8 +25,11 @@
             margin: 12px 5px;
             border: 1px solid whitesmoke;
             font: 18px;
-
         }
+    }
+
+    iframe {
+        width: 100%;
     }
 
     .colContacto {
@@ -35,8 +38,6 @@
         width: 340px;
         height: 600px;
         padding: 0px;
-
-
     }
 
     .colContacto1 {
@@ -70,6 +71,3 @@
     width: 300px;
     background-color: rgb(169, 169, 233);
 }
-
-
-/*media queries*/
