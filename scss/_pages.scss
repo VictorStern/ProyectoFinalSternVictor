@@ -212,7 +212,9 @@
 }
 
 /*somos*/
-.tarbajo .imgJob {
+.trabajo .imgJob {
+
+    margin: auto;
     width: 100%;
     height: 600px;
 
@@ -226,8 +228,10 @@
 }
 
 .trabajo .salonTitulo {
+
+    margin: 0px 10px;
     @include celu {
-        font-size: 25px;
+        font-size: 20px;
     }
 
 }
