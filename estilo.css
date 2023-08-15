@@ -421,7 +421,7 @@ footer p {
   height: 600px;
   background: rgb(0, 0, 1);
   padding: 15px 20px;
-  margin: 20px 10px;
+  margin: 15px 20px;
   border-radius: 4px;
   font-family: "nunito";
   color: white;
@@ -447,7 +447,7 @@ footer p {
   width: 100%;
   color: #fafafa;
   background: rgb(19, 15, 15);
-  padding: 15px;
+  padding: 0px 15px;
   border-radius: 4px;
   margin: 12px 5px;
   border: 1px solid whitesmoke;
@@ -455,11 +455,12 @@ footer p {
 }
 .contacto iframe {
   width: 100%;
+  margin-top: 15px;
 }
 .contacto .colContacto {
   display: flex;
-  margin-top: 15px;
   margin-bottom: 30px;
+  margin: 15px;
   width: 340px;
   height: 600px;
   padding: 0px;

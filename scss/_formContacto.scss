@@ -6,7 +6,7 @@
         height: 600px;
         background: rgb(0, 0, 1);
         padding: 15px 20px;
-        margin: 0px 20px;
+        margin: 15px 20px;
         border-radius: 4px;
         font-family: 'nunito';
         color: white;
@@ -20,7 +20,7 @@
             width: 100%;
             color: #fafafa;
             background: rgb(19, 15, 15);
-            padding: 15px;
+            padding: 0px 15px;
             border-radius: 4px;
             margin: 12px 5px;
             border: 1px solid whitesmoke;
@@ -30,12 +30,13 @@
 
     iframe {
         width: 100%;
+        margin-top: 15px;
     }
 
     .colContacto {
         display: flex;
-        margin-top: 15px;
         margin-bottom: 30px;
+        margin: 15px;
         width: 340px;
         height: 600px;
         padding: 0px;
