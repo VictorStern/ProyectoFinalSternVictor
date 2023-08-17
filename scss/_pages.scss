@@ -2,6 +2,8 @@
 .imgHome {
     width: 100%;
     height: 600px;
+    object-fit: cover;
+    margin-top: -65px;
 
     @include celu {
         height: auto;
@@ -14,6 +16,8 @@
 
 .salon {
     margin: 25px 15px;
+    overflow-x: hidden;
+    margin-top: $separacion;
 
 
     .salonTitulo {
@@ -50,7 +54,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 33px 15px;
+    margin: $separacion auto;
 
     .barberos1 {
         margin-top: 3rem;
@@ -84,6 +88,7 @@
 .shop {
     width: 100%;
     height: 560px;
+    margin-top: $marginTop;
 
     @include celu {
         height: auto;
@@ -151,13 +156,14 @@
     font-family: 'nunito';
     font-size: 20px;
     font-weight: bold;
+    margin-top: $marginTop;
 
     .botUsuario {
         @include botones
     }
 
     .serviciosBox {
-        margin-top: 10px;
+        margin-top: 25px;
         margin-bottom: 10px;
         padding: 15px 0 15px 0;
         border: 2px solid rgb(31, 0, 104);
@@ -190,12 +196,12 @@
 
     .estiloImg {
         box-shadow: 20px 15px 20px;
-        width: 280px;
+        width: 300px;
         margin: 20px 25px;
         background: linear-gradient(to bottom, rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
 
         @include tablet {
-            width: 400px;
+            width: 300px;
         }
 
 
@@ -217,6 +223,7 @@
     margin: auto;
     width: 100%;
     height: 600px;
+    margin-top: $marginTop;
 
     @include celu {
         height: auto;
@@ -224,12 +231,13 @@
 
     @include tablet {
         height: auto;
-    }   
+    }
 }
 
 .trabajo .salonTitulo {
 
     margin: 0px 10px;
+
     @include celu {
         font-size: 20px;
     }
