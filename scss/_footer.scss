@@ -14,6 +14,7 @@ footer {
 		width: 75%;
 		display: flex;
 		justify-content: space-around;
+		padding-top: 5px;
 
 		.aFooter {
 			&:hover {
@@ -32,7 +33,7 @@ footer {
 			}
 		}
 	}
-rem
+
 	p {
 		display: flex;
 		height: auto;

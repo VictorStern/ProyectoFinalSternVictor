@@ -72,6 +72,7 @@ footer .footerCss {
   width: 75%;
   display: flex;
   justify-content: space-around;
+  padding-top: 5px;
 }
 footer .footerCss .aFooter:hover {
   opacity: 0.5;
@@ -86,7 +87,7 @@ footer .footerCss .aFooter .foot {
     height: 30px;
   }
 }
-footer rem p {
+footer p {
   display: flex;
   height: auto;
   color: white;
@@ -96,7 +97,7 @@ footer rem p {
   margin: 0%;
 }
 @media screen and (max-width: 576px) {
-  footer rem p {
+  footer p {
     font-size: 10px;
   }
 }
