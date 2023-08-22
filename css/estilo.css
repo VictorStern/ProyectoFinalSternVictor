@@ -18,7 +18,7 @@
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.5019607843);
+  background-color: #000000;
   width: 100%;
   height: 150px;
 }
@@ -33,14 +33,15 @@ header .logo:hover {
 }
 header .navIcon {
   color: #fafafa;
-  background-color: rgba(65, 62, 62, 0.124);
+  background-color: rgba(107, 108, 99, 0.672);
   justify-content: end;
   align-items: end;
+  border-style: groove;
 }
 header nav {
   display: flex;
   justify-content: flex-end;
-  background-color: rgba(0, 0, 0, 0.7058823529);
+  background-color: rgba(0, 0, 0, 0.5764705882);
 }
 header nav .ulNav1 {
   text-align: end;
@@ -423,21 +424,107 @@ footer p {
   font: 18px;
 }
 
-.contacto {
-  margin-bottom: 2rem;
+/*.contacto {
+    margin-bottom: 2rem;
+
+    .formularioRegistro {
+        width: 400px;
+        height: 600px;
+        background: rgb(0, 0, 1);
+        padding: 15px 20px;
+        margin: 15px 20px;
+        border-radius: 4px;
+        font-family: 'nunito';
+        color: white;
+        box-shadow: 7px 13px rgb(22, 22, 23);
+
+        .botCol {
+            @include botones
+        }
+
+        .controls {
+            width: 100%;
+            color: #fafafa;
+            background: rgb(19, 15, 15);
+            padding: 0px 15px;
+            border-radius: 4px;
+            margin: 12px 5px;
+            border: 1px solid whitesmoke;
+            font: 18px;
+        }
+    }
+
+    iframe {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .colContacto {
+        display: flex;
+        margin-bottom: 30px;
+        margin: 15px;
+        width: 340px;
+        height: 600px;
+        padding: 0px;
+    }
+
+    .colContacto1 {
+        display: flex;
+        margin-top: 15px;
+        width: 360px;
+        height: 600px;
+        margin: 15px 15px;
+
+        .imgCol {
+            width: 100%;
+            height: 383px;
+        }
+
+        .cardBody {
+            background-color: rgb(4, 24, 4);
+            color: antiquewhite;
+            font-family: 'nunito';
+        }
+    }
 }
-.contacto .formularioRegistro {
-  width: 400px;
+
+.formularioTurno {
+    justify-content: center;
+    width: 400px;
+    box-shadow: 7px 13px #001;
+}
+
+.formUsuario {
+    width: 300px;
+    background-color: rgb(169, 169, 233);
+}*/
+.boxInfo {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+.boxInfo .box1 {
+  background-color: rgba(0, 0, 0, 0.731);
+  padding: 40px 40px 35px;
+  border: 2px solid #e9c664;
+  color: #e9c664;
+  font-size: large;
+  margin-bottom: 30px;
+}
+.boxInfo .box1 .foot2 {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+
+.formularioJob {
+  background-color: rgba(0, 0, 0, 0.731);
+  width: 100%;
+  max-width: 750px;
   height: 600px;
-  background: rgb(0, 0, 1);
-  padding: 15px 20px;
-  margin: 15px 20px;
-  border-radius: 4px;
-  font-family: "nunito";
-  color: white;
-  box-shadow: 7px 13px rgb(22, 22, 23);
+  color: #e9c664;
 }
-.contacto .formularioRegistro .botCol {
+.formularioJob .botJob {
   background-color: rgb(0, 33, 33);
   color: white;
   padding-bottom: 2px;
@@ -447,60 +534,27 @@ footer p {
   box-shadow: black solid;
   font-weight: bold;
 }
-.contacto .formularioRegistro .botCol:hover {
+.formularioJob .botJob:hover {
   color: bisque;
   background: rgb(4, 24, 4);
   font-weight: bold;
   border: black solid 1px;
 }
-.contacto .formularioRegistro .controls {
+.formularioJob .controls {
   width: 100%;
-  color: #fafafa;
+  color: #e9c664;
   background: rgb(19, 15, 15);
-  padding: 0px 15px;
+  padding: 15px;
   border-radius: 4px;
   margin: 12px 5px;
   border: 1px solid whitesmoke;
   font: 18px;
 }
-.contacto iframe {
-  width: 100%;
-  margin-top: 15px;
-}
-.contacto .colContacto {
-  display: flex;
-  margin-bottom: 30px;
-  margin: 15px;
-  width: 340px;
-  height: 600px;
-  padding: 0px;
-}
-.contacto .colContacto1 {
-  display: flex;
-  margin-top: 15px;
-  width: 360px;
-  height: 600px;
-  margin: 15px 15px;
-}
-.contacto .colContacto1 .imgCol {
-  width: 100%;
-  height: 383px;
-}
-.contacto .colContacto1 .cardBody {
-  background-color: rgb(4, 24, 4);
-  color: antiquewhite;
-  font-family: "nunito";
-}
 
-.formularioTurno {
-  justify-content: center;
-  width: 400px;
-  box-shadow: 7px 13px #001;
-}
-
-.formUsuario {
-  width: 300px;
-  background-color: rgb(169, 169, 233);
+iframe {
+  margin-top: 25px;
+  width: auto;
+  height: 600px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
