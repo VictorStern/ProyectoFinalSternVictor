@@ -72,6 +72,7 @@
         .imgBarbero {
             width: 200px;
             height: 200px;
+            object-fit: cover;
         }
     }
 }
@@ -249,6 +250,7 @@
     max-width: 325px;
     margin: auto;
     margin-bottom: 2rem;
+    overflow-x: hidden;
 
     .botJob {
         @include botones
