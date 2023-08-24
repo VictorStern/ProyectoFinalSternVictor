@@ -34,7 +34,7 @@ header {
 		justify-content: end;
 		align-items: end;
 		border-style: groove;
-		
+
 	}
 
 	nav {
@@ -45,22 +45,20 @@ header {
 		.ulNav1 {
 			text-align: end;
 			padding-right: 10px;
-		
-			}
 
 		}
+
 	}
+}
 
 
-	.castaNav {
-		font-family: 'Gill Sans MT';
-		font-size: 20px;
-		color: whitesmoke;
+.castaNav {
+	font-family: 'Gill Sans MT';
+	font-size: 20px;
+	color: whitesmoke;
 
 
-		&:hover {
-			color: rgb(166, 161, 4);
-		}
+	&:hover {
+		color: rgb(166, 161, 4);
 	}
-
-
+}

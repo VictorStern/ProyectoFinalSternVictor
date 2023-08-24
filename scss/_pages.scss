@@ -234,12 +234,13 @@
 
     @include tablet {
         height: auto;
-    }   
+    }
 }
 
 .trabajo .salonTitulo {
 
     margin: 0px 10px;
+
     @include celu {
         font-size: 20px;
     }
